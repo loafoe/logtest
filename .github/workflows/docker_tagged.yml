@@ -84,6 +84,7 @@ jobs:
             GIT_COMMIT=${{ steps.vars.outputs.sha_short }}
           platforms: linux/amd64
           push: true
+          provenance: false
           tags: ${{ steps.tags.outputs.tags }},loafoe/logtest-task:${{ steps.vars.outputs.tag }}
       -
         name: Image digest
