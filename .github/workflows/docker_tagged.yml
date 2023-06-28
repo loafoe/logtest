@@ -84,7 +84,7 @@ jobs:
             GIT_COMMIT=${{ steps.vars.outputs.sha_short }}
           platforms: linux/amd64
           push: true
-          tags: ${{ steps.tags.outputs.tags }},loafoe/logtest:${{ steps.vars.outputs.tag }}-task
+          tags: ${{ steps.tags.outputs.tags }},loafoe/logtest-task:${{ steps.vars.outputs.tag }}
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
