@@ -15,7 +15,7 @@ jobs:
       - name: Calculate Docker image tags
         id: tags
         env:
-          DOCKER_IMAGES: "ghcr.io/loafoe/logtest-task"
+          DOCKER_IMAGES: "ghcr.io/loafoe/logtest"
         run: |
           case $GITHUB_REF in
             refs/tags/*)  VERSION=${GITHUB_REF#refs/tags/};;
