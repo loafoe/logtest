@@ -14,7 +14,7 @@ jobs:
       - name: Calculate Docker image tags
         id: tags
         env:
-          DOCKER_IMAGES: "ghcr.io/loafoe/logtest-task"
+          DOCKER_IMAGES: "ghcr.io/loafoe/logtest"
         run: |
           case $GITHUB_REF in
             refs/tags/*)  VERSION=${GITHUB_REF#refs/tags/};;
@@ -25,10 +25,10 @@ jobs:
 
           TAGS=()
           for image in $DOCKER_IMAGES; do
-            TAGS+=("${image}:${VERSION}")
+            TAGS+=("${image}:${VERSION}-task")
 
             if [[ "${{ github.event.repository.default_branch }}" == "$VERSION" ]]; then
-              TAGS+=("${image}:latest")
+              TAGS+=("${image}:latest-task")
             fi
           done
 

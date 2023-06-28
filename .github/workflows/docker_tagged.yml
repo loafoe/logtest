@@ -26,10 +26,10 @@ jobs:
 
           TAGS=()
           for image in $DOCKER_IMAGES; do
-            TAGS+=("${image}:${VERSION}")
+            TAGS+=("${image}:${VERSION}-task")
 
             if [[ "${{ github.event.repository.default_branch }}" == "$VERSION" ]]; then
-              TAGS+=("${image}:latest")
+              TAGS+=("${image}:latest-task")
             fi
           done
 
