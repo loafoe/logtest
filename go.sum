@@ -1,6 +1,6 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/philips-software/go-hsdp-api v0.83.2 h1:E45D4+pgGSG+/G17Ulb9UYnLjBHKa88HeZTWZYcyZHo=
-github.com/philips-software/go-hsdp-api v0.83.2/go.mod h1:V6kE5P+8tOG7+hSQuP3a0fjdtcaLpyCo78rV2VHEYyY=
+github.com/philips-software/go-hsdp-api v0.83.3 h1:L8WVd+ezM8jyXTHyVewv9SEGuItMKsfZVYDPM5WckqQ=
+github.com/philips-software/go-hsdp-api v0.83.3/go.mod h1:/r4n+HqNkmavjPfLXekq58QlEpi6Mul0btAeSrB3V5Y=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=

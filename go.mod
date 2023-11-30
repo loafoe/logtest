@@ -2,4 +2,4 @@ module logtest
 
 go 1.20
 
-require github.com/philips-software/go-hsdp-api v0.83.2
+require github.com/philips-software/go-hsdp-api v0.83.3
